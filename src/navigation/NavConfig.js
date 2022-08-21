@@ -1,7 +1,7 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import App from "../App";
-import Home from "../pages/home/home";
+import Home from "../pages/home/Home";
 import About from "../pages/about/about";
 import Clients from "../pages/clients/clients";
 import Contacts from "../pages/contacts/contacts";
