@@ -3,7 +3,7 @@ import { Outlet } from "react-router-dom";
 import NavBar from "./components/navbar/NavBar";
 import SideBar from "./components/sidebar/SideBar";
 import UseMediaQuery from "./components/mediaquery/UseMediaQuery";
-import "./app.css";
+import "./App.css";
 
 function App() {
   let isPageWide = UseMediaQuery("(min-width: 860px)");
