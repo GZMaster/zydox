@@ -1,6 +1,6 @@
 import React from "react";
 import { DiAtom } from "react-icons/di";
-import { UseMediaQuery } from "../../components/Components";
+import UseMediaQuery from "../../components/mediaquery/UseMediaQuery";
 import Banner from "../../components/banner/Banner";
 import Footer from "../../components/footer/Footer";
 import rigImage from "../../assets/rig.jpg";
