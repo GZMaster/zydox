@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.banner__holder {
+  background-color: grey;
+}
+
+.banner__header {
+  width: 100%;
+  padding-top: 55px;
+  padding-bottom: 55px;
+}
+
+.banner__header h1 {
+  margin-left: 55px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+}
