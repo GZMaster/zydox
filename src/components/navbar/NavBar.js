@@ -1,14 +1,14 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-// import logo from "../../assets/Logo.jpg";
+import logo from "../../assets/Logo.jpg";
 import "./navbar.css";
 
 const NavBar = () => {
   return (
     <div className="nav__component">
       <div className="nav__header">
-        <img className="logo"  alt="" />
-        <h1>Pedagogy</h1>
+        <img className="logo" src={logo} alt="" />
+        <h1>ZYDOX</h1>
       </div>
 
       <div className="links__content">
