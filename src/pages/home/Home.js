@@ -4,6 +4,7 @@ import Footer from "../../components/footer/Footer";
 import cardImage from "../../assets/Oil-and-gas.jpg";
 import logoImage from "../../assets/Chevron.jpg";
 import "./home.css";
+//Changes made to the home page
 
 export default function Home() {
   return (
