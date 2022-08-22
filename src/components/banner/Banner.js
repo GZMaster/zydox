@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from "react";
+/* eslint-disable indent */
+import React, { useState, useEffect, useRef } from "react";
 import background1 from "../../assets/construct.jpg";
 import background2 from "../../assets/consult.png";
 import background3 from "../../assets/oil-refinery-vessels-1_1.jpg";
@@ -7,10 +8,29 @@ import background5 from "../../assets/oil_field_shillouete-1.jpg";
 import "./banner.css";
 
 const Banner = () => {
-  const [panel, setPanel] = useState("");
+  const [panel, setPanel] = useState("panel-one");
+  const change = useRef(0);
 
   useEffect(() => {
-    setPanel("panel-one");
+    setInterval(() => {
+      if (change.current === 0) {
+        setPanel("panel-one");
+        change.current += 1;
+      } else if (change.current === 1) {
+        setPanel("panel-two");
+        change.current += 1;
+      } else if (change.current === 2) {
+        setPanel("panel-three");
+        change.current += 1;
+      } else if (change.current === 3) {
+        setPanel("panel-four");
+        change.current += 1;
+      } else if (change.current === 4) {
+        setPanel("panel-five");
+        change.current = 0;
+      }
+    }, 5000);
+    console.log(change);
   }, []);
 
   return (
