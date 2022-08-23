@@ -1,6 +1,6 @@
 .app {
   width: 100%;
-  background-color: #eee7e7;
+  background-color: linear-gradient(90deg, #f5f7fa 0%, #c3cfe2 100%);
 }
 
 .navbar {

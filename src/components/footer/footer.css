@@ -22,7 +22,7 @@
 
 .contact {
   margin-bottom: 10px;
-  border-bottom: 1px solid red;
+  border-bottom: 1px solid white;
   padding-bottom: 10px;
 }
 
@@ -41,7 +41,7 @@
 
 .f__links {
   margin-bottom: 10px;
-  border-bottom: 1px solid red;
+  border-bottom: 1px solid white;
   padding-bottom: 10px;
 }
 
@@ -53,7 +53,7 @@
 .copy {
   display: block;
   width: 100%;
-  background-color: gray;
+  background-color: #4d4c4c;
   color: white;
   text-align: center;
   padding: 40px 0px;

@@ -1,9 +1,9 @@
 import React from "react";
-import { DiAtom } from "react-icons/di";
+import { AiFillCarryOut } from "react-icons/ai";
 import UseMediaQuery from "../../components/mediaquery/UseMediaQuery";
 import Banner from "../../components/banner/Banner";
 import Footer from "../../components/footer/Footer";
-import rigImage from "../../assets/rig.jpg";
+import aboutUsImg from "../../assets/aboutUs_unsplash.jpg";
 import "./about.css";
 
 export default function About() {
@@ -15,7 +15,7 @@ export default function About() {
 
       <div className="about_cards">
         <div className="about_card">
-          <DiAtom className="about_card_icon"></DiAtom>
+          <AiFillCarryOut className="about_card_icon"></AiFillCarryOut>
           <div className="about_card_details">
             <h2 className="about_card_title">Our Vision</h2>
             <p className="about_card_text">
@@ -27,7 +27,7 @@ export default function About() {
         </div>
 
         <div className="about_card">
-          <DiAtom className="about_card_icon"></DiAtom>
+          <AiFillCarryOut className="about_card_icon"></AiFillCarryOut>
           <div className="about_card_details">
             <h2 className="about_card_title">Our Vision</h2>
             <p className="about_card_text">
@@ -39,7 +39,7 @@ export default function About() {
         </div>
 
         <div className="about_card">
-          <DiAtom className="about_card_icon"></DiAtom>
+          <AiFillCarryOut className="about_card_icon"></AiFillCarryOut>
           <div className="about_card_details">
             <h2 className="about_card_title">Our Vision</h2>
             <p className="about_card_text">
@@ -52,7 +52,7 @@ export default function About() {
       </div>
 
       <div className="history_card">
-        <img className="about_card_image" src={rigImage} alt=""></img>
+        <img className="about_card_image" src={aboutUsImg} alt=""></img>
         <div className="history_card_details">
           <h2 className="history_card_title">History of the Energy Business</h2>
           <p className="history_card_text">

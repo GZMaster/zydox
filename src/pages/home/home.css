@@ -22,15 +22,17 @@
 .card__header {
   display: flex;
   justify-content: center;
+  font-size: 1.5em;
 }
 
 .card__image {
   width: 100%;
   margin-top: 10px;
+  height: 80%;
 }
 
 .paragraph1 {
-  text-align: justify;
+  font-size: 1em;
 }
 
 .card__btn {

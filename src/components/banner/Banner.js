@@ -1,10 +1,10 @@
 /* eslint-disable indent */
 import React, { useState, useEffect, useRef } from "react";
-import background1 from "../../assets/construct.jpg";
-import background2 from "../../assets/consult.png";
-import background3 from "../../assets/oil-refinery-vessels-1_1.jpg";
+import background1 from "../../assets/bannerImage_unsplash (1).jpg";
+import background2 from "../../assets/bannerImage_unsplash (2).jpg";
+import background3 from "../../assets/bannerImage_unsplash (3).jpg";
 import background4 from "../../assets/slider1.jpg";
-import background5 from "../../assets/oil_field_shillouete-1.jpg";
+import background5 from "../../assets/bannerImage_unsplash (4).jpg";
 import "./banner.css";
 
 const Banner = () => {
