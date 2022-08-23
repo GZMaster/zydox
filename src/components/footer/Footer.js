@@ -48,7 +48,7 @@ const Footer = () => {
       </div>
 
       <div className="copy">
-        <p>@ 2022 Pedagogy Group | Made By Daniel</p>
+        <p>@ 2022 Zydox Oil and Gas | Made By Daniel Ohiosumua</p>
       </div>
     </div>
   );
