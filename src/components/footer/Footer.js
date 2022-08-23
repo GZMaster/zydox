@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import footerImage from "../../assets/adsan-footer.png";
+// import footerImage from "../../assets/adsan-footer.png";
 import "./footer.css";
 
 const Footer = () => {
@@ -8,7 +8,7 @@ const Footer = () => {
     <div className="footer__container">
       <div className="footer">
         <div className="image__footer">
-          <img src={footerImage} alt="footer" />
+          {/* <img src={footerImage} alt="footer" /> */}
         </div>
 
         <div className="contact__list">
@@ -48,7 +48,7 @@ const Footer = () => {
       </div>
 
       <div className="copy">
-        <p>@ 2022 Pedagogy Group | Made By Daniel</p>
+        <p>@ 2022 Zydox Oil and Gas | Made By Daniel Ohiosumua</p>
       </div>
     </div>
   );
