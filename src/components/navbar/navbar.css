@@ -5,7 +5,7 @@
   z-index: 1;
   justify-content: space-between;
   padding: 20px;
-  background-color: #d4ebef;
+  background-color: #e47460;
   align-items: center;
   opacity: 0.9;
 }
@@ -29,5 +29,5 @@
 }
 
 a:hover {
-  color: green;
+  color: white;
 }

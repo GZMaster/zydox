@@ -1,7 +1,7 @@
 import React from "react";
 import Banner from "../../components/banner/Banner";
 import Footer from "../../components/footer/Footer";
-import cardImage from "../../assets/Oil-and-gas.jpg";
+import cardImage from "../../assets/cardImg_unsplash.jpg";
 import logoImage from "../../assets/Chevron.jpg";
 import "./home.css";
 //Changes made to the home page
