@@ -3,8 +3,8 @@ import { Link } from "react-scroll";
 import { useNavigate } from "react-router-dom";
 import BurgerMenu from "../hamburger/BurgerMenu";
 import UseMediaQuery from "../mediaquery/UseMediaQuery";
-import logo from "../../assets/images/Zydox Logo.png";
-import "./NavBar.scss";
+import "./Navbar.scss";
+import Logo from "../../assets/images/Zydox Logo.png";
 
 const NavBar = () => {
   const navigate = useNavigate();
@@ -13,13 +13,24 @@ const NavBar = () => {
 
   const handleClick = (path) => {
     navigate("/");
-    setSelectPage(path)
-  }
+    setSelectPage(path);
+  };
+  const [colorChange, setColorChange] = useState(false);
+  const changeNavbarColor = () => {
+    if (window.scrollY >= 50) {
+      setColorChange(true);
+    } else {
+      setColorChange(false);
+    }
+  };
+  window.addEventListener("scroll", changeNavbarColor);
 
   return (
-    <div className="nav__component">
+    <nav
+      className={colorChange ? "nav__component colorChange" : "nav__component"}
+    >
       <div className="nav__header">
-        <img className="logo" src={logo} alt="" />
+        <img className="logo" src={Logo} alt="logo" />
       </div>
 
       {isPageWide ? (
@@ -39,41 +50,44 @@ const NavBar = () => {
             smooth={true}
             spy={true}
             to="about"
-            offset={-80}
+            offset={-50}
             onClick={() => handleClick("About Us")}
           >
             About Us
           </Link>
           <Link
-            className={selectPage === "What we do" ? "links selected" : "links"}
+            className={
+              selectPage === "Our Services" ? "links selected" : "links"
+            }
             smooth={true}
             spy={true}
             to="services"
             offset={-80}
-            onClick={() => handleClick("What we do")}
+            onClick={() => handleClick("Our Services")}
           >
-            What we do
+            Our Services
           </Link>
 
           <Link
             className={
-              selectPage === "Contact Us"
+              selectPage === "Get in Touch"
                 ? "links Contact-Link selected"
                 : "links Contact-Link"
             }
             smooth={true}
             spy={true}
             to="contact"
-            offset={-80}
-            onClick={() => handleClick("Contact Us")}
+            offset={-50}
+            onClick={() => handleClick("Get in Touch")}
           >
-            Contact Us
+            Get in Touch
           </Link>
         </div>
       ) : (
         <BurgerMenu />
       )}
-    </div>
-  );};
+    </nav>
+  );
+};
 
 export default NavBar;

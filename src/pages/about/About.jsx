@@ -1,10 +1,10 @@
-import React from 'react'
+import React from "react";
 import { NavLink } from "react-router-dom";
-import './About.scss'
+import "./About.scss";
 
 const About = () => {
-    return (
-        <section id="about" className="A_Container">
+  return (
+    <section id="about" className="A_Container">
       <div className="A_Wrapper">
         <div className="A_Text_Wrap">
           <div className="A_Text_Title">
@@ -30,7 +30,7 @@ const About = () => {
         </div>
       </div>
     </section>
-    )
-}
+  );
+};
 
-export default About
+export default About;

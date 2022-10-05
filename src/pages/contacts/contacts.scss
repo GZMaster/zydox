@@ -1,0 +1,225 @@
+.C_Container {
+  width: 100%;
+}
+.C_Wrapper {
+  padding: 4rem 6rem;
+  background-color: #f7f7f7;
+  background-image: url("../../assets/images/Contact\ bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Contact_Wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 2rem 0;
+  margin-top: 2rem;
+}
+.C_title {
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 3px;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+  color: white;
+  margin-top: 0;
+  padding-left: 0.75rem;
+  margin-bottom: 1rem;
+  text-align: left;
+  border-left: 3px solid #de202c;
+}
+.C_Form {
+  padding: 1.5rem;
+  margin: 2rem;
+  margin-top: 0;
+  border: 1px solid #666;
+  flex: 1;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+}
+.C_Text {
+  color: white;
+  text-align: left;
+  font-weight: 600;
+  width: 70%;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.C_Info {
+  flex: 1;
+  display: flex;
+  background-color: transparent;
+  flex-direction: row;
+  gap: 3rem;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+}
+.C_btn {
+  text-transform: capitalize;
+  background: #de202dde;
+  color: white;
+  padding: 1rem 1.5rem;
+  letter-spacing: 2px;
+  display: inline-block;
+  font-weight: 700;
+  font-size: 1.1rem;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 1.2rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+.C_btn:hover {
+  background-color: #de202c;
+}
+.form_control {
+  display: block;
+  padding: 1rem 1rem;
+  border: none;
+  margin-bottom: 0.6rem;
+  background: transparent;
+  border: 1px solid #666;
+  text-transform: capitalize;
+  color: white;
+  letter-spacing: 1.5px;
+}
+.form_control:focus-within {
+  outline: transparent;
+}
+.form_label {
+  font-weight: 600;
+  margin: 0.5rem 0;
+  color: white;
+  text-transform: capitalize;
+  line-height: 1.5rem;
+  font-size: 1.1rem;
+}
+.C_item_title {
+  color: white;
+  margin: 0;
+  font-size: 18px;
+  letter-spacing: 1.5px;
+  font-weight: 600;
+  line-height: 17px;
+}
+.C_Svg {
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  display: flex;
+  width: fit-content;
+  margin-bottom: 1rem;
+  background-color: #de202c;
+}
+
+.C_item-text {
+  font-size: 14px;
+  margin: 0;
+  color: white;
+  font-weight: 300;
+  width: fit-content;
+}
+
+.C_item {
+  margin-right: 10px;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+}
+.C_item_Wrap {
+  display: flex;
+  flex-direction: column;
+}
+.C_item:nth-last-child(n) {
+  margin-right: 0;
+}
+@media screen and (min-width: 769px) and (max-width: 1199px) {
+  .C_Wrapper {
+    width: 95%;
+    padding-right: 3rem;
+  }
+  .C_Text {
+    width: 80%;
+  }
+  .C_Info {
+    margin-right: 1rem;
+    padding: 8rem 4rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .Contact_Wrapper {
+    flex-direction: column-reverse;
+  }
+  .C_Text {
+    width: 90%;
+    font-size: 1.5rem;
+  }
+  .C_Info {
+    text-align: left;
+    justify-content: center;
+    align-content: center;
+    padding: 4rem;
+    margin: 0;
+    padding-right: 0;
+    background-color: transparent;
+    flex-direction: column;
+  }
+  .C_item_title {
+    margin-top: 0;
+  }
+  .C_item {
+    margin: 0 !important;
+    width: 75vw;
+  }
+  .C_item-text {
+    align-self: center;
+    width: 100%;
+    margin: 0;
+    font-size: 1rem;
+    line-height: 22px;
+  }
+  .C_Wrapper {
+    padding: 0;
+    width: 100%;
+  }
+  .C_btn {
+    width: fit-content !important;
+    padding: 1rem 1.5rem;
+  }
+  .C_Container {
+    padding: 0;
+    display: flex;
+    width: 100%;
+  }
+  .C_Form {
+    padding: 0.5rem;
+    margin: 0.5rem;
+    background-color: transparent;
+  }
+  .C_Flex {
+    flex-direction: column;
+    gap: 0;
+  }
+  .C_Svg {
+    font-size: 45px;
+    padding: 1rem;
+    display: flex;
+    background-color: #a4cf39;
+  }
+  .C_Svg svg {
+    align-self: center;
+  }
+
+  .form_control {
+    border: 1px solid #a4cf39;
+  }
+  .C_btn {
+    background-color: #a4cf39;
+    width: 100%;
+    margin-top: 0;
+  }
+}
