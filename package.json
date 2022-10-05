@@ -34,23 +34,6 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ],
-    "rules": {
-      "react/prop-types": 0,
-      "indent": [
-        "error",
-        2
-      ],
-      "quotes": [
-        "error",
-        "double"
-      ]
-    }
-  },
   "browserslist": {
     "production": [
       ">0.2%",
