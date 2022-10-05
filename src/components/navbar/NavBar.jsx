@@ -2,9 +2,8 @@ import React, { useState } from "react";
 import { Link } from "react-scroll";
 import { useNavigate } from "react-router-dom";
 import BurgerMenu from "../hamburger/BurgerMenu";
-import UseMediaQuery from "../mediaquery/UseMediaQuerry";
-import logo from "../../assets/images/Rigvigon Logo.png";
-import "./NavBar.scss";
+import UseMediaQuery from "../mediaquery/UseMediaQuery";
+import "./Navbar.scss";
 
 const NavBar = () => {
   const navigate = useNavigate();
@@ -30,7 +29,7 @@ const NavBar = () => {
       className={colorChange ? "nav__component colorChange" : "nav__component"}
     >
       <div className="nav__header">
-        <img className="logo" src={logo} alt="" />
+        <img className="logo" src={null} alt="logo" />
       </div>
 
       {isPageWide ? (

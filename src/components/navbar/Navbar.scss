@@ -8,14 +8,15 @@
   justify-content: space-between;
   padding: 20px;
   align-items: center;
-  background-color: #de202c;
+  background-color: transparent;
   box-shadow: 0 1px 0 rgb(0 0 0 / 10%);
   font-weight: 500;
   line-height: 23px;
+  transition: 0.3s ease-in-out;
   font-family: "Montserrat";
 }
 .colorChange {
-  background-color: transparent;
+  background-color: #de202c;
 }
 
 .nav__header {
@@ -38,7 +39,7 @@
   width: 80%;
   padding: 10px;
   margin-right: 20px;
-  color: rgba(0, 0, 0, 0.6);
+  color: rgb(255, 255, 255);
   cursor: pointer;
 }
 
@@ -46,8 +47,8 @@
   font-weight: bold;
 }
 .Contact-Link {
-  border: 1px solid black;
-  padding: 7px 13px;
+  background-color: #de202c;
+  padding: 0.75rem 1rem;
 }
 
 a:hover {
