@@ -4,7 +4,7 @@ import "./Home.scss"
 
 const Home = () => {
     return (
-        <div className="banner_container">
+      <div className="banner_container">
         <div className="banner_wrapper">
           <h3>
             World-class financial services, We are <b>ZYDOX.</b>
@@ -19,7 +19,7 @@ const Home = () => {
             Contact Us
           </Link>
         </div>
-      </div>
+    </div>
     )
 }
 
