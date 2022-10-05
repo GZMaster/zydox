@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom";
 import BurgerMenu from "../hamburger/BurgerMenu";
 import UseMediaQuery from "../mediaquery/UseMediaQuery";
 import "./Navbar.scss";
+import Logo from "../../assets/images/Zydox Logo.png";
 
 const NavBar = () => {
   const navigate = useNavigate();
@@ -29,7 +30,7 @@ const NavBar = () => {
       className={colorChange ? "nav__component colorChange" : "nav__component"}
     >
       <div className="nav__header">
-        <img className="logo" src={null} alt="logo" />
+        <img className="logo" src={Logo} alt="logo" />
       </div>
 
       {isPageWide ? (
@@ -49,7 +50,7 @@ const NavBar = () => {
             smooth={true}
             spy={true}
             to="about"
-            offset={-80}
+            offset={-50}
             onClick={() => handleClick("About Us")}
           >
             About Us
@@ -76,7 +77,7 @@ const NavBar = () => {
             smooth={true}
             spy={true}
             to="contact"
-            offset={-80}
+            offset={-50}
             onClick={() => handleClick("Get in Touch")}
           >
             Get in Touch

@@ -13,7 +13,7 @@
   font-weight: 500;
   line-height: 23px;
   transition: 0.3s ease-in-out;
-  font-family: "Montserrat";
+  font-family: "Inter", sans-serif;
 }
 .colorChange {
   background-color: #de202c;
@@ -28,6 +28,7 @@
 
 .logo {
   width: 20%;
+  border-radius: 50%;
 }
 
 .links__content {
@@ -49,6 +50,9 @@
 .Contact-Link {
   background-color: #de202c;
   padding: 0.75rem 1rem;
+}
+.colorChange .Contact-Link {
+  border: 2px solid black;
 }
 
 a:hover {
