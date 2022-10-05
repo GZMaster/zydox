@@ -1,7 +1,36 @@
-import React from 'react'
-import "./Contact.scss"
+import React, { useState } from "react";
+import { send } from "emailjs-com";
+import "./Contact.scss";
+import { MdEmail, MdPhoneInTalk, MdLocationPin } from "react-icons/md";
+import SuccessfulNotification from "../../components/notification/SuccessfulNotification";
 
 const Contact = () => {
+  const [toSend, setToSend] = useState({
+    from_name: "",
+    to_name: "Bralewood",
+    message: "",
+    reply_to: "retrodevstechnology@gmail.com",
+    from_email: "",
+    subject: "",
+  });
+
+  const onSubmit = (e) => {
+    e.preventDefault();
+    send("service_hhl8ldq", "template_djummb7", toSend, "IxwXkIwaa63vnsgkR")
+      .then((response) => {
+        console.log("SUCCESS!", response.status, response.text);
+      })
+      .catch((err) => {
+        console.log("FAILED...", err);
+      });
+
+    SuccessfulNotification("Mail Sent Successfully");
+  };
+
+  const handleChange = (e) => {
+    setToSend({ ...toSend, [e.target.name]: e.target.value });
+  };
+  
     return (
         <section id="contact" className="C_Container">
       <div className="C_Wrapper">
