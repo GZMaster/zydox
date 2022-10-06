@@ -57,7 +57,7 @@ const BurgerMenu = () => {
               offset={-60}
               onClick={handleClick}
             >
-              What we do
+              Our Services
             </Link>
           </li>
           <li>
@@ -69,7 +69,7 @@ const BurgerMenu = () => {
               to="contact"
               onClick={handleClick}
             >
-              Contact Us
+              Get in Touch
             </Link>
           </li>
         </ul>

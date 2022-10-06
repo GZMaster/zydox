@@ -12,7 +12,7 @@ const Services = () => {
           <h2>HOW WE SERVE YOU</h2>
         </div>
         <p className="S_Wrapper_Text">
-          Below is a brief itemization of some of the services we offer:
+          Below is a brief itemization of some of the services we offer
         </p>
         <Card items={cardData} />
       </div>

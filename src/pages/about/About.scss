@@ -22,13 +22,15 @@
   flex: 1;
   display: flex;
   gap: 10px;
-  flex-wrap: wrap;
-  justify-content: flex-end;
+  align-self: center;
+  justify-content: center;
 }
 .A_Text_Header {
-  font-weight: bold;
-  font-size: 40px;
-  line-height: 45px;
+  color: black;
+  text-align: left;
+  font-weight: 600;
+  padding-left: 0.75rem;
+  font-size: 2rem;
 }
 .A_Btn {
   border: 2px solid #f96507;
@@ -46,38 +48,45 @@
   background-color: #f96507;
 }
 .A_Text_Title {
-  color: #000015;
-  line-height: 23.48px;
-  font-size: 20px;
-  font-weight: 500;
-  letter-spacing: 1.5px;
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 3px;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+  color: black;
+  margin-top: 0;
+  padding-left: 0.75rem;
+  margin-bottom: 1rem;
+  text-align: left;
 }
-.A_Orange {
-  color: #f96507;
-}
-.A_Blue {
-  color: #000098;
+.border-left {
+  border-left: 3px solid #de202c;
 }
 .A_Text_Wrap p {
   text-align: justify;
   line-height: 22px;
 }
+.red-dot {
+  font-size: 1.5rem;
+  color: #de202c;
+}
 @media screen and (min-width: 769px) and (max-width: 1199px) {
   .A_Wrapper {
-    flex-direction: row;
     padding: 2rem 1rem;
     margin: 0;
   }
+  .A_Text_Title {
+    font-size: 0.8rem;
+  }
+  .A_Text_Header {
+    font-size: 1.5rem;
+  }
   .A_Image_Wrap img {
-    width: 48%;
+    width: 100%;
   }
   .A_Text_Wrap p {
     line-height: 22px;
     font-size: 1rem;
-  }
-  .A_Text_Header {
-    line-height: 32px;
-    font-size: 2.2rem;
   }
 }
 @media screen and (max-width: 768px) {
@@ -88,15 +97,19 @@
   }
   .A_Container {
     height: auto;
+    background-image: none;
   }
   .A_Text_Wrap {
     margin-bottom: 3rem;
   }
   .A_Image_Wrap {
     justify-content: center;
+    background-image: url("../../assets/images/Squares\ designM.png");
+    background-repeat: no-repeat;
+    padding: 2rem;
   }
   .A_Image_Wrap img {
-    width: 48%;
+    width: 100%;
   }
   .A_Text_Title {
     font-size: 14px;

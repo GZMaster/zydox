@@ -66,11 +66,10 @@
 @media screen and (min-width: 769px) and (max-width: 1199px) {
   .banner_container {
     height: auto;
-    padding: 0;
   }
   .banner_wrapper {
     margin: 0;
-    padding: 2rem;
+    padding: 3rem 2rem;
     gap: 1rem;
     width: 100%;
     justify-content: flex-start;
@@ -92,11 +91,11 @@
 @media screen and (max-width: 768px) {
   .banner_container {
     background-repeat: no-repeat;
-    height: 80vh;
+    height: 90vh;
   }
   .banner_wrapper {
     margin: 0;
-    padding: 0 1rem;
+    padding: 3rem 1rem;
     gap: 1rem;
     width: 100%;
     justify-content: flex-start;

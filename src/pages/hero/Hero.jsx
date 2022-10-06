@@ -4,14 +4,20 @@ import "./Hero.scss";
 
 const Home = () => {
   return (
-    <div className="banner_container">
+    <div className="banner_container" id="home">
       <div className="banner_wrapper">
-        <p>
-          <span>Integrity.</span>
-          <span>Innovation. </span>
-          <span>Teamwork</span>
+        <p className="A_Text_Title">
+          <span>
+            Integrity<span className="red-dot"> . </span>
+          </span>
+          <span>
+            Innovation<span className="red-dot"> . </span>
+          </span>
+          <span>
+            Teamwork<span className="red-dot"> . </span>
+          </span>
         </p>
-        <h3>MEETING THE WORLD’S EVER-GROWING DEMAND FOR ENERGY.</h3>
+        <h3>MEETING THE WORLD’S EVER-GROWING DEMAND FOR ENERGY</h3>
         <p>
           Zydox Incorporation is an integrated energy company that aims to meet
           Nigeria’s ever-growing demand for energy in ways that are
