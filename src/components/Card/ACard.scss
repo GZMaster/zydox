@@ -1,73 +1,70 @@
-.Card_Wrapper {
+.ACard_Wrapper {
   display: flex;
-  padding: 4rem 0rem;
   flex-wrap: wrap;
   justify-content: space-evenly;
   gap: 5px;
   align-items: baseline;
 }
-.Card {
-  width: 25%;
-  margin-bottom: 2.5rem;
+.ACard {
+  width: 40%;
+  margin-bottom: 1rem;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-items: center;
-  justify-content: center;
+  align-self: stretch;
+  justify-content: flex-start;
   padding: 20px;
-  font-size: 16px;
+  font-size: 0.8rem;
   color: #000015cc;
   background-color: #fff;
   border-radius: 10px 10px 10px 10px;
   border-color: rgba(0, 0, 152, 0);
 }
-.Card:hover {
+.ACard:hover {
   transform: scale(1.05);
   transition: all 0.5s linear;
   z-index: 1;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
-.Card img {
+.ACard img {
   margin-bottom: 20px;
 }
-.Card h6 {
+.ACard h6 {
   font-weight: 500;
   text-transform: capitalize;
   color: #000015;
-  font-size: 20px;
-  text-align: center;
+  font-size: 1rem;
+  text-align: start;
   margin: 0;
   margin-bottom: 1rem;
 }
-.Card p {
+.ACard p {
   font-size: 14px;
   line-height: 20px;
-  text-align: center;
+  text-align: start;
 }
 @media screen and (min-width: 769px) and (max-width: 1199px) {
-  .Card_Wrapper {
-    padding: 2rem 0;
+  .ACard {
+    width: 100%;
   }
-  .Card {
-    width: 33%;
+  .ACard p {
+    text-align: justify;
   }
-  .Card p {
-    text-align: center;
-  }
-  .Card h6 {
+  .ACard h6 {
     font-size: 1rem;
   }
 }
 @media screen and (max-width: 768px) {
-  .Card {
+  .ACard {
     width: 100%;
     flex: auto;
     margin-bottom: 20px;
   }
-  .Card p {
-    text-align: center;
+  .ACard p {
+    text-align: justify;
   }
-  .Card_Wrapper {
+  .ACard_Wrapper {
     flex-wrap: wrap;
   }
 }

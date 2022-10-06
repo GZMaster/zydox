@@ -1,7 +1,7 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import App from "../App";
-import MainPage from "../pages/Main";
+import MainPage from "../pages/Home";
 import NotFound from "../pages/404page/404Page";
 
 const NavConfig = () => {
