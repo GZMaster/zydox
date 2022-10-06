@@ -1,9 +1,11 @@
 .A_Container {
   height: auto;
   background-color: #fdfdfe;
+  background-image: url("../../assets/images/Squares\ design.png");
+  background-repeat: no-repeat;
 }
 .A_Wrapper {
-  padding: 4rem;
+  padding: 6rem;
   display: flex;
   flex-direction: row-reverse;
   gap: 10px;

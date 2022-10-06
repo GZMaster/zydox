@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import "./About.scss";
+import One from "../../assets/images/AboutFire Image.png";
 
 const About = () => {
   return (
@@ -26,7 +27,7 @@ const About = () => {
           </NavLink>
         </div>
         <div className="A_Image_Wrap">
-          <img src={null} className="A_Image" alt="about" />
+          <img src={One} className="A_Image" alt="about" />
         </div>
       </div>
     </section>

@@ -1,39 +1,39 @@
 const CardData = [
   {
     id: 1,
-    title: "CURRENCY BROKERAGE",
+    title: "Oil Extraction processes",
     image: "/assets/images/drilling-rig 1.png",
-    text: "As your financial service provider we help you buy and sell currencies, allowing you to save up on the cost of international money transfers.",
+    text: "We engage in all the processes involved in extracting petroleum from the earth.",
   },
   {
     id: 2,
-    title: "SPOT & FORWARD TRANSACTIONS",
+    title: "Sale of oil barrels",
     image: "/assets/images/barrel 1.png",
-    text: "We proffer the option of engaging in spot and forward transactions to help you manage risks from the foreign exchange markets.",
+    text: "Wholesale purchase of crude oil barrels",
   },
   {
     id: 3,
-    title: "CURRENCY CONSULTANCY",
+    title: "Gas stations’ supply",
     image: "/assets/images/gas-station 1.png",
-    text: "Get our expertise analysis of financial markets and strategies for global investments. We help businesses and individuals understand and capitalise on the foreign exchange markets to yield maximum profits.",
+    text: "We supply crude oil products to gas stations on demand",
   },
   {
     id: 4,
-    title: "SWAPS",
+    title: "Offshore drilling",
     image: "/assets/images/oil-drill 1.png",
-    text: "We’re also handle swap transactions for firms and financial institutions",
+    text: "Most of our exploration and production activities are concentrated on offshore",
   },
   {
     id: 5,
-    title: "CASH DELIVERIES:",
+    title: "Construction and design of pipes and pipeline networks",
     image: "/assets/images/pipe 1.png",
-    text: "We provide prompt delivery by efficient staff within minutes of finalised transactions. In our bid to provide premium service, we also serve a clearing function permitting payment to be made between entities who want to hold or use a different currency.",
+    text: "We construct and design pipes and pipeline systems to facilitate small-scale and large-scale oil distribution.",
   },
   {
     id: 6,
-    title: "SETTLEMENT OF OBLIGATIONS",
+    title: "Sale of gasoline gallons",
     image: "/assets/images/raw-oil 1.png",
-    text: "We carry out clearing and settlement transactions for business, organisations, government bodies, etc.",
+    text: " retail purchase of gasoline in gallons by customers.",
   },
 ];
 export default CardData;

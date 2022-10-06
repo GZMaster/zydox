@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { send } from "emailjs-com";
-import "./Contact.scss";
+import "./contact.scss";
 import { MdEmail, MdPhoneInTalk, MdLocationPin } from "react-icons/md";
 import SuccessfulNotification from "../../components/notification/SuccessfulNotification";
 
@@ -30,13 +30,13 @@ const Contact = () => {
   const handleChange = (e) => {
     setToSend({ ...toSend, [e.target.name]: e.target.value });
   };
-  
-    return (
-        <section id="contact" className="C_Container">
+
+  return (
+    <section id="contact" className="C_Container">
       <div className="C_Wrapper">
-        <h4 className="C_title">GET IN TOUCH WITH US . </h4>
+        <h4 className="C_title">GET IN TOUCH WITH US</h4>
         <p className="C_Text">
-          Tincidunt sagittis egestas aliquam volutpat at odio pharetra.
+          Kindly fill out the form below in order to reach out to us.
         </p>
         <section className="Contact_Wrapper">
           <form className="C_Form" onSubmit={onSubmit}>
@@ -123,7 +123,7 @@ const Contact = () => {
         </section>
       </div>
     </section>
-    )
-}
+  );
+};
 
-export default Contact
+export default Contact;
