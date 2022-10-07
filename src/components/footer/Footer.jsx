@@ -1,6 +1,6 @@
 import React from "react";
 import "./footer.scss";
-import { FaFacebookF, FaLinkedin, FaInstagram } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 const Footer = () => {
   return (
     <footer className="Footer">
@@ -12,28 +12,12 @@ const Footer = () => {
       </div>
       <div className="F_Socials">
         <a
-          href="https://www.facebook.com/profile.php?id=100084729275588"
-          className="F_item"
-          target={"_blank"}
-          rel="noreferrer"
-        >
-          <FaFacebookF />
-        </a>
-        <a
-          href="https://www.linkedin.com/company/bralewood-investment-limited/"
+          href="https://www.linkedin.com/company/zydox-oil-and-gas/about/"
           className="F_item"
           target={"_blank"}
           rel="noreferrer"
         >
           <FaLinkedin />
-        </a>
-        <a
-          href="https://www.instagram.com/bralewoodinvestments/"
-          className="F_item"
-          target={"_blank"}
-          rel="noreferrer"
-        >
-          <FaInstagram />
         </a>
       </div>
     </footer>
