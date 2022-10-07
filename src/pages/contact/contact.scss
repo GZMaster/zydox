@@ -139,20 +139,25 @@
 }
 @media screen and (min-width: 769px) and (max-width: 1199px) {
   .C_Wrapper {
-    width: 95%;
-    padding-right: 3rem;
+    width: auto;
+    padding: 2rem;
   }
   .C_Text {
     width: 80%;
   }
   .C_Info {
-    margin-right: 1rem;
-    padding: 8rem 4rem;
+    align-content: flex-start;
+    padding-top: 4rem;
+  }
+  .C_item {
+    width: auto;
   }
 }
 @media screen and (max-width: 768px) {
   .Contact_Wrapper {
     flex-direction: column-reverse;
+    margin: 0;
+    padding: 0;
   }
   .C_Text {
     width: 90%;
@@ -162,7 +167,7 @@
     text-align: left;
     justify-content: center;
     align-content: center;
-    padding: 4rem;
+    padding: 0;
     margin: 0;
     padding-right: 0;
     background-color: transparent;
@@ -182,10 +187,7 @@
     font-size: 1rem;
     line-height: 22px;
   }
-  .C_Wrapper {
-    padding: 0;
-    width: 100%;
-  }
+
   .C_btn {
     width: fit-content !important;
     padding: 1rem 1.5rem;
@@ -204,22 +206,7 @@
     flex-direction: column;
     gap: 0;
   }
-  .C_Svg {
-    font-size: 45px;
-    padding: 1rem;
-    display: flex;
-    background-color: #a4cf39;
-  }
-  .C_Svg svg {
-    align-self: center;
-  }
-
-  .form_control {
-    border: 1px solid #a4cf39;
-  }
-  .C_btn {
-    background-color: #a4cf39;
-    width: 100%;
-    margin-top: 0;
+  .C_Wrapper {
+    padding: 2rem 1rem;
   }
 }

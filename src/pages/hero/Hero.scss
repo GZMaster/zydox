@@ -10,7 +10,7 @@
 
 .banner_wrapper {
   display: flex;
-  width: 60%;
+  width: 50%;
   flex-direction: column;
   justify-content: space-evenly;
   padding: 4rem 0rem;
@@ -18,36 +18,29 @@
   margin: 0px 120px;
 
   > h3 {
-    width: 692px;
-    height: 112px;
-
     font-family: "Inter", sans-serif !important;
     font-style: normal;
-    font-weight: 600;
-    font-size: 48px;
-    line-height: 56px;
-
+    font-weight: 800;
+    font-size: 2.5rem;
+    line-height: 3rem;
     color: #ffffff;
-
     > b {
       font-weight: 800;
     }
   }
 
   > p {
-    width: 569px;
-    height: 66px;
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 140%;
+    width: 80%;
+    text-align: justify;
     color: #ffffff;
   }
 
   > a {
     display: flex;
-    width: 197px;
-    height: 49px;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -60,6 +53,8 @@
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
+    width: fit-content;
+    padding: 0.75rem 1rem;
     line-height: 19px;
     text-decoration: none;
   }
@@ -71,11 +66,10 @@
 @media screen and (min-width: 769px) and (max-width: 1199px) {
   .banner_container {
     height: auto;
-    padding: 0;
   }
   .banner_wrapper {
     margin: 0;
-    padding: 2rem;
+    padding: 3rem 2rem;
     gap: 1rem;
     width: 100%;
     justify-content: flex-start;
@@ -97,11 +91,11 @@
 @media screen and (max-width: 768px) {
   .banner_container {
     background-repeat: no-repeat;
-    height: 80vh;
+    height: 90vh;
   }
   .banner_wrapper {
     margin: 0;
-    padding: 0 1rem;
+    padding: 3rem 1rem;
     gap: 1rem;
     width: 100%;
     justify-content: flex-start;
