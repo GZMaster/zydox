@@ -1,0 +1,70 @@
+.ACard_Wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 5px;
+  align-items: baseline;
+}
+.ACard {
+  width: 40%;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-items: center;
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 20px;
+  font-size: 0.8rem;
+  color: #000015cc;
+  background-color: #fff;
+  border-radius: 10px 10px 10px 10px;
+  border-color: rgba(0, 0, 152, 0);
+}
+.ACard:hover {
+  transform: scale(1.05);
+  transition: all 0.5s linear;
+  z-index: 1;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.ACard img {
+  margin-bottom: 20px;
+}
+.ACard h6 {
+  font-weight: 500;
+  text-transform: capitalize;
+  color: #000015;
+  font-size: 1rem;
+  text-align: start;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+.ACard p {
+  font-size: 14px;
+  line-height: 20px;
+  text-align: start;
+}
+@media screen and (min-width: 769px) and (max-width: 1199px) {
+  .ACard {
+    width: 100%;
+  }
+  .ACard p {
+    text-align: justify;
+  }
+  .ACard h6 {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .ACard {
+    width: 100%;
+    flex: auto;
+    margin-bottom: 20px;
+  }
+  .ACard p {
+    text-align: justify;
+  }
+  .ACard_Wrapper {
+    flex-wrap: wrap;
+  }
+}
