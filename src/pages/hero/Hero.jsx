@@ -24,9 +24,7 @@ const Home = () => {
           economically, environmentally, and socially responsible. Our ambition
           is to provide reliable, affordable, and more sustainable energy. We
           focus on oil and gas production for industrial and commercial
-          customers. We aim to position ourselves as top leaders in the oil and
-          gas industry competing with industry giants like Shell, Chevron, Exxon
-          Mobil, and the likes.
+          customers.
         </p>
         <Link activeClass="active" smooth spy to="contact">
           Contact Us
